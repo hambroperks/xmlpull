@@ -9,9 +9,9 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '7.0'
   s.requires_arc = false
 
-  s.source_files = 'src/main/gen/objc/**/*.{h,m}'
-  s.public_header_files = 'src/main/gen/objc/**/*.h'
-  s.header_mappings_dir = 'src/main/gen/objc'
+  s.source_files = 'xmlpull/src/main/gen/objc/**/*.{h,m}'
+  s.public_header_files = 'xmlpull/src/main/gen/objc/**/*.h'
+  s.header_mappings_dir = 'xmlpull/src/main/gen/objc'
   # s.resources =
 
 end
